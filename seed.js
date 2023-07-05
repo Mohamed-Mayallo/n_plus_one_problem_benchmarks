@@ -1,4 +1,4 @@
-import DbClient from './pg-connection.js';
+import DbClient from './db/pg-connection.js';
 
 async function seed() {
   console.log('Wait ...');

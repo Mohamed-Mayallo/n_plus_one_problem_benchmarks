@@ -1,4 +1,4 @@
-import DbClient from './pg-connection.js';
+import DbClient from './db/pg-connection.js';
 import CacheClient from './redis-connection.js';
 
 const postsWithNPlusOne = async () => {

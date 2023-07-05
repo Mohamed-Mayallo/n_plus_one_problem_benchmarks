@@ -1,5 +1,5 @@
 import gql from 'graphql-tag';
-import DbClient from './pg-connection.js';
+import DbClient from './db/pg-connection.js';
 
 const typeDefs = gql`
   type Post {

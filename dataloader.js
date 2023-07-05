@@ -1,5 +1,5 @@
 import DataLoader from 'dataloader';
-import DbClient from './pg-connection.js';
+import DbClient from './db/pg-connection.js';
 
 const commentsBatchFunction = async (postsIds) => {
     const sql = `SELECT * FROM "Comment" WHERE "post_id" IN (${postsIds})`;
